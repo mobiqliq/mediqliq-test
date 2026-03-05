@@ -1,0 +1,5 @@
+{
+  "EN": { "welcome": "Your Health Journey", "view_reports": "View Lab Reports", "book": "Book Appointment" },
+  "AR": { "welcome": "رحلتك الصحية", "view_reports": "عرض تقارير المختبر", "book": "حجز موعد" },
+  "HI": { "welcome": "आपका स्वास्थ्य सफर", "view_reports": "लैब रिपोर्ट देखें", "book": "अपॉइंटमेंट बुक करें" }
+}
