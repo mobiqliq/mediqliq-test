@@ -1,0 +1,13 @@
+directories:
+  output: dist
+  buildResources: assets
+files:
+  - filter:
+      - build/**/*
+extraMetadata:
+  main: build/electron.js
+extraResources:
+  - filter:
+      - db.json
+extends: react-cra
+electronVersion: 28.3.3

@@ -1,0 +1,22 @@
+appId: com.mediqliq.global
+productName: Mediqliq Clinical ERP
+directories:
+  output: dist
+  buildResources: assets
+mac:
+  category: public.app-category.medical
+  target: 
+    - target: dmg
+      arch: [arm64, x64]
+  hardenedRuntime: true
+  gatekeeperAssess: false
+win:
+  target: 
+    - target: nsis
+      arch: [x64]
+  publisherName: "Mediqliq Global Technologies"
+  legalTrademarks: "Mediqliq®"
+linux:
+  target:
+    - AppImage
+    - deb

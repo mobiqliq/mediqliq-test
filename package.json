@@ -1,0 +1,40 @@
+{
+  "name": "mediqliq-standalone",
+  "version": "1.0.0",
+  "homepage": ".",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "react-scripts build",
+    "ship": "npm run build && electron-builder build --win --mac"
+  },
+  "dependencies": {
+    "query-string": "^9.3.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "dayjs": "^1.11.19",
+    "electron": "^31.0.0",
+    "electron-builder": "^26.8.1",
+    "fs-extra": "^11.3.4"
+  },
+  "author": "Manish Thapa",
+  "description": "Mediqliq Standalone Hospital ERP",
+  "build": {
+    "extraResources": "db.json"
+  }
+}
