@@ -1,0 +1,7 @@
+import { logAudit } from '../utils/audit';
+await logAudit(
+  'ADD_EXPENSE',
+  'FINANCE',
+  id,
+  expense.category + ' - ₹' + expense.amount
+);
